@@ -1,0 +1,274 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78, 189, 254, 1);
+	background: -moz-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+	background: linear-gradient(135deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1);
+	padding-top: 55px;
+	padding-bottom: 70px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.offer {
+	width: 580px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 45px;
+	margin-bottom: 40px;
+	width: 400px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	background: #ffd429;
+	color: #000;
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dream {
+	margin-top: 10px;
+}
+
+.learn {
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 280px;
+	background: url('../img/icon1.jpg') no-repeat center top;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.skill-title {
+	font-size: 19px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 270px;
+	background: url('../img/icon2.jpg') no-repeat center top;
+}
+
+.skill-change {
+	width: 290px;
+	background: url('../img/icon3.jpg') no-repeat center top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+
+.form {
+	margin-top: 50px;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-style: 15px;
+	height: 45px;
+	padding-left: 25px;
+	display: block;
+	margin: 15px auto;
+}
+
+.dtn-form {
+	width: 340px;
+	border: 0;
+	margin: 15px auto;
+}
+
+.footer {
+	padding: 65px 0;
+	background: #164d7a;
+}
+
+.credits {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.header2 {
+	background: rgba(241, 231, 103, 1);
+	background: -moz-linear-gradient(-45deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(241, 231, 103, 1)), color-stop(100%, rgba(254, 182, 69, 1)));
+	background: -webkit-linear-gradient(-45deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+	background: linear-gradient(135deg, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1e767', endColorstr='#feb645', GradientType=1);
+}
+
+/*Responsive*/
+
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.offer {
+		width: 500px;
+	}
+
+	.dream {
+		width: 550px;
+	}
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin-bottom: 50px;
+	}
+
+	.dream {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+	.offer {
+		width: 100%;
+	}
+
+	.intro {
+		width: auto;
+	}
+
+	.skills {
+		flex-direction: column;
+	}
+
+	.skill {
+		width: auto;
+		margin-bottom: 20px;
+	}
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/*320px - 576px*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.title {
+		font-size: 28px;
+	}
+
+	.title span {
+		font-size: 42px;
+	}
+
+	.input {
+		width: 100%
+	}
+
+	.btn {
+		width: 100%;
+	}
